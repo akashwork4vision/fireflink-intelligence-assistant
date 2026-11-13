@@ -1,0 +1,27 @@
+*# Environment variables
+.env
+.env.*
+
+# Allow example configuration
+!.env.example
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
